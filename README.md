@@ -8,5 +8,9 @@ The service runs on a Node/Express server, Mongoose as the DBMS for MongoDB, and
 
 This repo integrates **CircleCI** for continuous integration. Pull requests must pass the CircleCI build in order to be merged. The CircleCI build runs the unit and integration tests which have been set up with Jest and Enzyme.
 
+### Deployment
+
+There is a separate branch called `deployment` that includes container configuration.
+
 ### Demo
 ![demo gif](https://hrr40-fec2-jeremypurser.s3.us-east-2.amazonaws.com/morelikethis.gif)
